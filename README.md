@@ -12,10 +12,10 @@ var observer = new MutationObserver(function(mutations) {
             if(modalButton = document.body.querySelector('.verification-checkpoint-modal button.btn')) {
                 setTimeout(() => {
                     modalButton.click();
-                    console.log('SUCCESS: Verfication checkpoint modal shown and automatically dismissed!');
+                    console.log('SUCCESS: Verfication checkpoint passed!');
                 }, 3000);
             } else {
-                console.log('ERROR: Verification checkpoint modal could not be dismissed.');
+                console.log('ERROR: Verification checkpoint failed!');
             }
         }
     });    
