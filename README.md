@@ -3,7 +3,7 @@ This simple browser console script automatically acknowledges and dismisses the 
 
 ## Usage
 1. Visit any video course on the Lawline website and begin playing the video.
-2. Open the browser console window (press `Ctrl + Shift + K` in Firefox).
+2. Open the browser console window (press `Ctrl + Shift + K` in Firefox or `Ctrl + Shift + J` in Chrome).
 3. Paste the following code into the console and press `Enter`:
 ```javascript
 var observer = new MutationObserver(function(mutations) {
